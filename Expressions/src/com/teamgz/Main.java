@@ -96,7 +96,7 @@ public class Main {
         	exp_tmp = (new Expression(exp_tmp, '#')).getExpression();
             for (Map.Entry<String, Double> entry : contents.entrySet()) {
                 if (!exp_tmp.contains(entry.getKey())) {
-                    System.out.println(" Error! There Is Not A Variable " + entry.getKey());
+                    System.out.println("Error! There Is Not A Variable " + entry.getKey());
                     return null;
                 } else {
                     String value = "" + entry.getValue();

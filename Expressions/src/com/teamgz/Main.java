@@ -108,7 +108,7 @@ public class Main {
             }
             
             return (new Expression(exp_tmp, '#')).getExpression();
-        } else { // just simplify with no var
+        } else { // just simplify with no va
             return (new Expression(exp_tmp, '#')).getExpression();
         }
     }
